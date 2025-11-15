@@ -13,3 +13,9 @@ Arbol de desición simple en python.
 ---
 
 Árbol de decisión simple en Python utilizando Gitflow.
+
+---
+
+## Estado del proyecto
+
+Este proyecto implementa un árbol de decisión simple en Python para clasificar números como "Alto" o "Bajo" utilizando un umbral configurable. La rama `develop` se usa para integrar cambios antes de pasarlos a `main`.
