@@ -8,13 +8,20 @@ from src.decision_tree import clasificar_lista
 
 def main():
     """Ejecuta el flujo completo: generación/lectura, clasificación y reporte."""
-
-    # Argumentos opcionales para permitir cambiar el umbral
     parser = argparse.ArgumentParser(description="Árbol de decisión simple.")
-    parser.add_argument("--umbral", type=int, default=50,
-                        help="Valor del umbral para clasificar (por defecto 50).")
+    parser.add_argument(
+        "--umbral",
+        type=int,
+        default=50,
+        help="Valor del umbral para clasificar (por defecto 50).",
+    )
     args = parser.parse_args()
     umbral = args.umbral
+
+    print("========================================")
+    print("   PRÁCTICA: ÁRBOL DE DECISIÓN SIMPLE   ")
+    print("========================================")
+    print(f"[INFO] Umbral de clasificación utilizado: {umbral}\n")
 
     inicio = time.time()
 
@@ -28,13 +35,13 @@ def main():
 
     # 2. Cargar números
     numeros = cargar_numeros()
-    print(f"[INFO] Se cargaron {len(numeros)} números.")
+    print(f"[INFO] Se cargaron {len(numeros)} números.\n")
 
     # 3. Clasificar todos los números
     clasificaciones = clasificar_lista(numeros, umbral=umbral)
 
     # 4. Imprimir primeros 10 resultados
-    print("\n=== Ejemplos de clasificación (primeros 10) ===")
+    print("=== Ejemplos de clasificación (primeros 10) ===")
     for num, etiqueta in zip(numeros[:10], clasificaciones[:10]):
         print(f"{num} → {etiqueta}")
 
@@ -49,7 +56,9 @@ def main():
     # 6. Tiempo total
     fin = time.time()
     tiempo_total = fin - inicio
-    print(f"\nTiempo total de ejecución: {tiempo_total:.4f} segundos")
+    print("\n=== Tiempo de ejecución ===")
+    print(f"Tiempo total de ejecución: {tiempo_total:.4f} segundos")
+    print("\n[FIN] Ejecución completada correctamente.")
 
 
 if __name__ == "__main__":
