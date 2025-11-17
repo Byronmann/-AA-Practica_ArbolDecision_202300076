@@ -6,7 +6,7 @@
 **Facultad:** Ingeniería en Sistemas  
 **Curso:** Análisis de Algoritmos  
 **Práctica:** Árbol de Decisión simple en Python  
-**Estudiante:** Byron Rodolfo Maldonado Palacios
+**Estudiante:** Byron Rodolfo Maldonado Palacios  
 **Carnet:** 202300076
 **Docente:** Ing. César Dionicio Sazo Mayen  
 **Fecha:** 16 de noviembre de 2025  
@@ -108,4 +108,45 @@ Este árbol no tiene más niveles ni ramas adicionales; toda la lógica se conce
   41 → Bajo
   58 → Alto
   3  → Bajo
-a
+---
+## Evidencias del Proyecto
+
+A continuación se presentan las evidencias solicitadas en la práctica, almacenadas en  
+`docs/evidencias/`.
+
+### 1. Ramas locales y remotas (`git branch -a`)
+![Evidencia Branches](docs/evidencias/branches.png)
+
+### 2. Historial de commits (`git log --oneline --decorate --graph`)
+![Evidencia Git Log](docs/evidencias/gitlog.png)
+
+### 3. Pull Request: feature → develop
+![Evidencia PR Feature](docs/evidencias/pr_develop_to_main.png)
+
+### 4. Pull Request: develop → main (versión final)
+![Evidencia PR Develop](docs/evidencias/pr_feature_to_develop.png)
+
+### 5. Tag de versión final `v1.0.0`
+![Evidencia Tag](docs/evidencias/tag_v1.0.0.png)
+
+### 6. Ejecución del programa (`python main.py`)
+![Ejecución Programa](docs/evidencias/ejecucion.png)
+
+### 7. Estructura del proyecto (carpetas y archivos)
+![Evidencia Estructura](docs/evidencias/estructura.png)
+
+### 8. Archivo generado: `data/numeros_1000.txt`
+![Evidencia Archivo](docs/evidencias/numeros_1000.png)
+
+## Conclusiones
+
+La práctica permitió aplicar el flujo de trabajo Gitflow de forma correcta, utilizando ramas feature, develop, main y hotfix, además de realizar commits claros, pull requests y merges controlados.  
+Se comprendió cómo un árbol de decisión simple puede clasificar datos utilizando únicamente un umbral como nodo principal.  
+Además, reforcé el uso de control de versiones, la resolución de conflictos, la creación de tags y la documentación de un proyecto profesional mediante un README completo.  
+Este ejercicio fortaleció habilidades prácticas de desarrollo y buenas prácticas en control de versiones, fundamentales en entornos de trabajo reales.
+
+## Referencias
+
+- Git Documentation: https://git-scm.com/docs  
+- Gitflow Workflow (Atlassian): https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow  
+- Python documentation: https://docs.python.org  
