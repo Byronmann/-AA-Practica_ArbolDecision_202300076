@@ -6,7 +6,7 @@
 **Facultad:** Ingeniería en Sistemas  
 **Curso:** Análisis de Algoritmos  
 **Práctica:** Árbol de Decisión simple en Python  
-**Estudiante:** Byron Rodolfo Maldonado Palacios  
+**Estudiante:** Byron Rodolfo Palacios  
 **Carnet:** 202300076
 **Docente:** Ing. César Dionicio Sazo Mayen  
 **Fecha:** 16 de noviembre de 2025  
@@ -108,3 +108,7 @@ Este árbol no tiene más niveles ni ramas adicionales; toda la lógica se conce
   41 → Bajo
   58 → Alto
   3  → Bajo
+<<<<<<< HEAD
+=======
+a
+>>>>>>> cambio_nombre_estudiante
